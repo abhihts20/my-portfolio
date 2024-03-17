@@ -44,7 +44,7 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h2 className="font-bold">{item.jobTitle}</h2>
+              <h2 className="font-bold dark:text-white">{item.jobTitle}</h2>
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p dangerouslySetInnerHTML={{ __html: item.description }} className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
