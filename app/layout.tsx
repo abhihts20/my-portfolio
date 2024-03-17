@@ -8,6 +8,7 @@ import ThemeContextProvider from '@/context/theme-context';
 import { Toaster } from 'react-hot-toast';
 import { Lato } from 'next/font/google';
 import { Metadata } from 'next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -40,6 +41,7 @@ export default function RootLayout({
             <Header />
             {children}
             <Footer />
+            <SpeedInsights />
 
             <Toaster position="top-right" />
             <ThemeSwitch />
