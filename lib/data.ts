@@ -126,13 +126,13 @@ export const skillsWithLinksAndIcons: SkillsWithIcon = [
   {
     name: 'Javascript',
     link: LINKS.JS,
-    icon: 'icons/Javascript.svg',
+    icon: 'icons/JavaScript.svg',
     typeOfEntry: 'Programming Language',
   },
   {
     name: 'Typescript',
     link: LINKS.TS,
-    icon: 'icons/Typescript.svg',
+    icon: 'icons/TypeScript.svg',
     typeOfEntry: 'Programming Language',
   },
   {
